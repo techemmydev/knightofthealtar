@@ -1,0 +1,1313 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+ body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+  
+ }
+ /*containerbox*/ /*containerbox*/ /*containerbox*/ /*containerbox*/ /*containerbox*/ /*containerbox*/
+ .containerbox{
+   width: 100%;
+   
+   /*background-color: royalblue;*/
+
+ }
+ /*welcomepage.html*//*welcomepage.html*//*welcomepage.html*//*welcomepage.html*//*welcomepage.html*/
+ /*backgroung image* 
+ .big-image{
+   width: 100%;
+   height: 100vh;
+   position: relative;
+   background-size: cover;
+   background-position: 50% 50%;
+   background-image: url('../image/knightpicture.jpg');
+ }
+ .overlay{
+   position: absolute;
+   height: 100%;
+   width: 100%;
+   background: rgba(0,0,0,0.5);
+   color:white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   cursor: pointer;
+ }
+ .overlay h1{
+   font-size: 45px;
+   letter-spacing: 4px;
+   margin: 0 0 5px;
+   text-transform: uppercase;
+  
+ }
+ .overlay p{
+   margin: 0;
+   font-size:30px;
+   text-transform: capitalize;
+  color: yellowgreen;
+ }
+ 
+ .overlay a{
+   text-decoration: none;
+   margin-top: 20px;
+   text-transform: uppercase;
+   display: inline-block;
+   color: #333;
+   font-size: 30px;
+   padding: 20px;
+   background: black;
+   transition: .3s;
+ }
+ .overlay a:hover{
+  background: brown;
+  color: white;
+  border-radius: 55px;
+  transition:.2s ;
+  
+ }
+ /*welcomepage.html*//*welcomepage.html*//*welcomepage.html*//*welcomepage.html*//*welcomepage.html*/
+
+ /*postion fixed*//*postion fixed*//*postion fixed*//*postion fixed*//*postion fixed*//*postion fixed*/
+ /*.scroll{
+  width: 100%;
+  position: fixed;
+  z-index: 12;
+background-color: navy;
+}*/
+/*postion fixed*//*postion fixed*//*postion fixed*//*postion fixed*//*postion fixed*//*postion fixed*/
+ .mainheader{
+   background-color: royalblue;
+   width: 100%;
+   cursor: pointer;
+  
+ }
+ 
+ .mainheadertitle{
+   padding: 20px;
+   text-align: right;
+   font-size: 13px;
+   letter-spacing: 3px;
+   text-transform: capitalize;
+ }
+ .mainheadertitle a {
+   margin-right: 30px;
+   text-decoration: none;
+   color: wheat;
+   font-weight: bold;
+ }
+ .mainheadertitle .number{
+  margin-right: 30px;
+  color: wheat;
+  text-transform: capitalize;
+  font-weight: bold;
+ }
+ .mainheadertitle a:hover{
+   color:lightgrey;
+  
+  
+ }
+ .mainheadertitle .number:hover{
+   color:lightgrey;
+   
+  
+ }
+ /*email and address ending parts*//*postion fixed*//*postion fixed*//*postion fixed*//*postion fixed*/
+  
+ 
+
+ /*logo image links*//*postion fixed*//*postion fixed*//*postion fixed*//*postion fixed*//*postion fixed*/
+ 
+ .logo a{
+   display: inline-flex;
+   text-decoration: none;
+   color: lightgray;
+   font-weight: bolder;
+   text-transform: uppercase;
+   position: absolute;
+
+ }
+ .logo img{
+   margin-left: 10px;
+   border-radius: 5px;
+   margin-top: 10px;
+   margin-bottom:10px;
+ }
+ 
+ .span{
+  color:wheat;
+  font-weight: lighter;
+
+}
+.logo h1{
+  margin-left: 10px;
+  font-size: 12px;
+  margin-top: 27px;
+  font-size: 20px;
+}
+/* logo image link--*/ /*postion fixed*//*postion fixed*//*postion fixed*//*postion fixed*/
+
+/*navigation links*//*postion fixed*//*postion fixed*//*postion fixed*//*postion fixed*//*postion fixed*/
+
+.nav-link{
+  float: right;
+  width: 100%;
+  background-color:navy;
+  z-index: 12;
+padding-bottom: 20px
+}
+.nav-link ul{
+  float: right;
+margin-right: 20px;
+margin-top: 20px;
+}
+.nav-link ul li{
+  float: left;
+  list-style: none;
+  position: relative;
+
+}
+.nav-link ul li :hover{
+  color: white;
+  background-color: darkslateblue;
+}
+.nav-link ul li a{
+  display: block;
+  font-size: 15px;
+  color: yellowgreen;
+  padding:20px 20px;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: bold;
+  
+}
+/*.nav-link ul li ul{
+  display: none;
+  position: absolute;
+
+}
+.nav-link ul li:hover ul{
+  display: block;
+ z-index: 12;
+}
+.nav-link ul li ul {
+  width: 400px;
+  padding: 20px;
+border-radius: 0px 0px  10px 10px;
+background-color:navy;
+  
+}
+.nav-link ul li ul li a{
+  padding: 8px 20px;
+  letter-spacing: 4px;
+
+}
+.nav-link ul li ul li a:hover{
+color: white;
+}*/
+
+.nav-link .current{
+  color: white;
+  
+
+}
+.nav-link .current:hover{
+  background-color:darkslateblue;
+  color: lightgrey;
+
+}
+.nav-link .currents{
+  color: royalblue;
+  font-weight: bold;
+  background-color: darkslateblue;
+}
+/*.arrow-down{
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid lightgrey;
+  position: relative;
+  bottom: 30px;
+  right: -90px;
+  content: '';
+cursor: pointer;
+}*/
+/*navigation links*//*postion fixed*//*postion fixed*//*postion fixed*//*postion fixed*//*postion fixed*/
+
+/*image*//*image*//*image*//*image*//*image*//*image*//*image*//*image*//*image*//*image*//*image*/
+.big-image{
+  width: 100%;
+  height: 90vh;
+  position: relative;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-image: url('../image/thurrible.jpg');
+}
+
+.overlay{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(0,0,0,0.8);
+  color:white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+.overlay h1{
+  font-size: 45px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-weight: lighter;
+ 
+}
+
+.overlay p{
+  margin-top: 20px;
+  font-size:30px;
+  text-transform: capitalize;
+ color: yellowgreen;
+}
+
+.overlay a{
+  text-decoration: none;
+  margin-top: 30px;
+  text-transform: uppercase;
+  display: inline-block;
+  color: #333;
+  font-size: 30px;
+  padding: 20px;
+  background: black;
+  transition: .3s;
+  
+}
+.overlay a:hover{
+ background: brown;
+ color: white;
+ border-radius: 55px;
+ transition:.2s ;
+}
+/*image*//*image*//*image*//*image*//*image*//*image*//*image*//*image*//*image*//*image*//*image*/
+
+/*who we are*//*who we are*//*who we are*//*who we are*//*who we are*//*who we are*//*who we are*/
+
+.welcometostdenisknightofthealtar {
+  width: 70%;
+  margin: auto;
+ }
+ .welcometostdenisknightofthealtar h1{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px;
+  color: #333;
+  letter-spacing: 4px;
+  margin-bottom: 20px;
+  font-weight: lighter;
+  margin-top: 30px;
+ }
+ .welcometostdenisknightofthealtar p{
+  text-align: center;
+  text-transform: capitalize;
+  line-height: 30px;
+  letter-spacing: 2px;
+ font-size: 15px;
+ color: gray;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ .headings{
+  float: left;
+  width: 23.1%;
+  border: none;
+  box-sizing: border-box;
+  text-align: center; 
+  cursor: pointer;
+  margin-left: 20px;
+  margin-top: 30px;
+  }
+ .headings img{
+  border-radius: 10px;
+  
+  }
+  .ourchurch{
+  color: #333;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-top: 30px;
+  }
+  .ourchurch:hover{
+   color: brown;
+  }
+  .headings p{
+   color: #333;
+   text-align: center;
+   text-transform: capitalize;
+   line-height: 30px;
+   letter-spacing: 2px;
+  font-size: 15px;
+  margin-top: 20px;
+font-weight: 500;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+  }
+  .headings a{
+   text-decoration: none;
+   margin-top: 25px;
+   text-transform: uppercase;
+   display: inline-block;
+   color: #333;
+   font-size: 20px;
+   padding: 10px;
+   
+   transition: .3s;
+  }
+  .headings a:hover{
+  background: royalblue;
+  color: white;
+  
+  transition:.2s ;
+  
+  }
+  
+  /* history,faith,church,till who we are*/ /* history,faith,church,till who we are*/  
+ /*who we are*//*who we are*//*who we are*//*who we are*//*who we are*//*who we are*//*who we are*/
+
+ .whoweare1{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.whoweare1 h1{
+  font-size: 40px;
+  text-transform: uppercase;
+font-weight: lighter;
+} 
+.whoweare1 p{
+  font-size: 20px;
+  text-transform: capitalize;
+  color: white;
+  margin-bottom: 20px;
+}
+.whoweare2{
+  color: white;
+  width: 100%;
+  height: 70vh;
+  background-color: rgba(0,0,0,0.8);
+
+}   
+.whoweare3{
+  background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+width: 100%;
+height: 70vh;
+animation: whoweare 30s infinite;
+margin-top: 30px;
+}    
+    
+@keyframes whoweare{
+  
+    0%{
+ background-image:url('../image/santuary3.jpg');
+    }
+    20%{
+ background-image: url('../image/santuary3.jpg');
+    }
+  20.01%{
+  background-image:url('../image/cross2.jpg') ;
+   }
+  40%{
+  background-image: url('../image/cross2.jpg');
+   }
+   40.01%{
+  background-image:url('../image/chalice.jpg') ;
+    }
+  60%{
+  background-image: url('../image/chalice.jpg');
+   }
+ 60.01%{
+   background-image:url('../image/knightpicture.jpg') ;
+    }
+    80%{
+    background-image: url('../image/knightpicture.jpg');
+    }  
+ 80.1%{
+    background-image:url('../image/gospelre\ ading.jpg') ;
+        }
+ 100%{
+      background-image: url('../image/gospelre\ ading.jpg');
+        }
+  
+       }
+.whoweare1 a{
+  text-decoration: none;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  display: inline-block;
+  color: #333;
+  font-size: 20px;
+  padding: 10px;
+  background: rosybrown;
+  transition: .3s;
+}
+.whoweare1 a:hover{
+ background: brown;
+ color: white;
+ border-radius: 55px;
+ transition:.2s ;
+}
+ /*who we are become a member*/ /*who we are become a member*/ /*who we are become a member*/
+
+  /*  the st,john berchman our patron saints*//*  the st,john berchman our patron saints*/
+  
+    .titlesaint{
+    color: gray;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-top: 50px;
+    font-weight: lighter;
+    font-size: 25px;
+    }
+    .ourpatronsaints{
+      float: right;
+      width: 30.1%;
+      border: none;
+      padding: 15px 0;
+      box-sizing: border-box;
+      text-transform: capitalize;
+      cursor: pointer;
+      margin-right: 90px;
+      text-align: center;
+      }
+    #ourpatronsaint img{
+      border-radius: 28px;
+      cursor: pointer;
+    }
+    
+
+    .stjohnberhmanquote{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    color: white;
+    padding: 30px;
+    background-image: url('../image/cross.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    
+    }
+    .stjohnberhmanquote:hover{
+      color:lightslategray;
+      background-image: url('../image/rosary.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  
+    }
+    
+    .feastday{
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      color:#333;
+      text-align: center;
+      margin-top: 20px;
+    }
+    #ourpatronsaint a{
+    display: inline-block;
+    background: #333;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 10px;
+    transition: .3s;
+    margin-top: 20px;
+    
+    }
+    #ourpatronsaint a:hover{
+  background-color: black;
+    color: #333;
+
+    }
+    .videowrapper{
+      width: 80%;
+    margin: auto;
+    }
+    #ourpatronsaint iframe{
+      margin-top: 30px;
+      border: 2px solid #333;
+      border-radius: 20px;
+    }
+    /* closing the st,john berchman our patron saints*//* closing the st,john berchman our patron saints*/
+
+ /*our spirituality*/ /*our spirituality*/ /*our spirituality*/ /*our spirituality*/ /*our spirituality*/
+    
+ #ourspirituality p{
+        color: #333;
+        text-align: center;
+        text-transform: capitalize;
+        line-height: 30px;
+        letter-spacing: 2px;
+      font-size: 15px;
+      margin-top: 20px;
+      font-weight: 500;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      
+      }
+      #ourspirituality a{
+        text-decoration: none;
+        margin-top: 25px;
+        text-transform: uppercase;
+        display: inline-block;
+        color:white;
+        font-size: 20px;
+        padding: 10px;
+        background: #333;
+      }
+      #ourspirituality a:hover{
+       background:royalblue;
+       color: white;
+       text-decoration: unset;
+      }
+ /*our spirituality*/ /*our spirituality*/ /*our spirituality*/ /*our spirituality*/ /*our spirituality*/
+
+ .brotherlylove{
+  float: right;
+  width: 50%;
+  margin-right: 20px;
+  padding: 10px;
+  text-align: justify;
+  margin-top: 70px;
+ 
+}
+.brotherlylove h1{
+  font-weight: lighter;
+  color: royalblue;
+  font-size: 40px;
+  font-family: sans-serif;
+  letter-spacing: 4px;
+  text-transform: capitalize;
+line-height: 3rem;
+animation:names 4s ;
+animation-iteration-count: infinite;
+
+}
+.brotherlylove p{
+color:#333 ;
+text-transform: capitalize;
+line-height: 2rem;
+padding: 10px;
+font-size: 17px;
+}
+.brotherlylove a{
+text-decoration: none;
+   margin-top: 25px;
+   text-transform: uppercase;
+   display: inline-block;
+   color:white;
+   font-size: 20px;
+   padding: 10px;
+   background: royalblue;
+ }
+ .brotherlylove a:hover{
+  background:navy;
+  color: white;
+ }
+
+
+.brotherlylove3{
+float: left;
+background-image: url('../image/thurrible.jpg');
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+width: 30%;
+height: 300px;
+margin-left: 30px;
+border-radius: 10px;
+margin-top: 70px;
+}
+.brotherlylove3:hover{
+background-image: url('../image/holycomm.jpg');
+}
+
+/*brotherlylove*//*brotherlylove*//*brotherlylove*//*brotherlylove*//*brotherlylove*//*brotherlylove*/
+
+ /*ourcolevalue*//*ourcolevalue*//*ourcolevalue*//*ourcolevalue*//*ourcolevalue*//*ourcolevalue*/
+.headingsforcolevalue{
+  float: left;
+  width: 30.1%;
+  border: none;
+  box-sizing: border-box;
+  text-align: center; 
+  cursor: pointer;
+  margin-left: 20px;
+}
+.headingsforcolevalue p{
+  color: #333;
+        text-align: center;
+        text-transform: capitalize;
+        line-height: 30px;
+        letter-spacing: 2px;
+      font-size: 15px;
+      margin-top: 20px;
+      font-weight: 500;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+   .ourcolevalue h1{
+    color: #333;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 60px;
+    text-transform: uppercase;
+    font-weight: lighter;
+   }
+   .ourcolevalue i{
+    font-size: 40px;
+    color: royalblue;
+   }
+   /*ourcolevalue*//*ourcolevalue*//*ourcolevalue*//*ourcolevalue*//*ourcolevalue*//*ourcolevalue*/
+
+   /*before/after masss*//*before/after masss*//*before/after masss*//*before/after masss*/
+
+   .beforemass1{
+    position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  cursor: pointer;
+   }
+   
+   .beforemass1 h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+   color: white;
+   } 
+   .beforemass1 h4{
+    font-size: 20px;
+    text-transform: capitalize;
+    color: white;
+    
+   }
+   .beforemass2{
+    color: white;
+    width: 100%;
+    height: 70vh;
+    background-color: rgba(0,0,0,0.8);
+   
+   }   
+   .beforemass3{
+   margin-top: 30px;
+    background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   width: 100%;
+   height: 70vh;
+   animation: beforemass 30s infinite;
+   
+   }    
+      
+   @keyframes beforemass{
+    
+      0%{
+   background-image:url('../image/altar2.jpg');
+      }
+      20%{
+   background-image: url('../image/altar2.jpg');
+      }
+    20.01%{
+    background-image:url('../image/jesus.jpg') ;
+     }
+    40%{
+    background-image: url('../image/jesus.jpg');
+     }
+     40.01%{
+    background-image:url('../image/jesus1.jpg') ;
+      }
+    60%{
+    background-image: url('../image/jesus1.jpg');
+     }
+   60.01%{
+     background-image:url('../image/terbancle\ 2.jpg') ;
+      }
+      80%{
+      background-image: url('../image/terbancle\ 2.jpg');
+      }  
+   80.1%{
+      background-image:url('../image/wine.jpg') ;
+          }
+   100%{
+        background-image: url('../image/wine.jpg');
+          }
+    
+         }
+   .beforemass1 a{
+    text-decoration: none;
+    margin-top: 25px;
+    text-transform: uppercase;
+    display: inline-block;
+    color: wheat;
+    font-size: 20px;
+    padding: 10px;
+    background: brown;
+    transition: .3s;
+   }
+   .beforemass1 a:hover{
+   background: rosybrown;
+   color: white;
+   border-radius: 55px;
+   transition:.2s ;
+   }
+   /*before/after masss*/ /*before/after masss*//*before/after masss*//*before/after masss*/
+
+    /*latestest sermon*//*latestest sermon*//*latestest sermon*//*latestest sermon*//*latestest sermon*/
+     
+     .headingslatest{
+      float: left;
+      width: 30.1%;
+      border: none;
+      box-sizing: border-box;
+      text-align: center; 
+      cursor: pointer;
+      margin-left: 20px;
+     margin-top: 20px; 
+     }
+     .headingslatest p{
+      color: #333;
+      text-align: center;
+      text-transform: capitalize;
+      line-height: 30px;
+      letter-spacing: 2px;
+    font-size: 15px;
+    margin-top: 20px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+     }
+    .icon i {
+     color: #333;
+     margin-top: 10px;
+     display:inline-block;
+     padding: 10px;
+     }
+     .icon i:hover{
+     color: navy;
+     }
+     /*latestest sermon*/ /*latestest sermon*//*latestest sermon*//*latestest sermon*//*latestest sermon*/
+.information{
+  width: 100%;
+  height: 40vh;
+  background-color: rgba(0,0,0,0.8);
+}
+     .upcomingevent1{
+      background-image: url('../image/jesus3.jpg');
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+       height: 40vh;
+       text-align: center;
+       line-height: 5rem;
+       margin-top: 30px;
+      }
+      .upcomingevent1:hover{
+       background-image: url('../image/altar2.jpg');
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+      
+      }
+      .upcomingevent1 a i{
+       text-decoration: none;
+       color: royalblue;
+       font-size: 40px;
+      }
+      .upcomingevent1 a i:hover{
+       color: yellowgreen;
+      }
+      .upcomingevent1 h3 {
+        font-size: 30px;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        color: royalblue;
+        text-align: center;
+      } 
+      .upcomingevent1 p{
+      font-size: 14px;
+      text-transform: capitalize;
+      font-size: 19px;
+      color:white;
+      }
+      /*upcoming events*//*upcoming events*//*upcoming events*//*upcoming events*//*upcoming events*/
+
+   /*new events*//*new events*//*new events*//*new events*//*new events*//*new events*//*new events*/
+  
+   .eventimg{
+    width: 20%;
+    margin-left: 20px;
+    margin-top: 20px;
+   }
+   
+   #events3{
+    float: right;
+    width: 50%;
+    margin-right: 30px;
+    padding:20px ;
+    text-align: center;
+   }
+   .event2{
+   /* background-image: url('../image/altar2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    margin-top: 30px;
+   }
+   .events4{
+    color: #333;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: lighter;
+    margin-bottom: 20px;
+   }
+   .events6 i ,p{
+    font-size: 15px;
+    color:royalblue;
+   text-transform: uppercase;
+   
+   }
+   .events5{
+    color:grey;
+    font-size: 15px;
+    line-height: 2rem;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    
+   }
+   
+   .event2 a{
+    display: inline-block;
+   background: royalblue;
+   color: white;
+   text-transform: uppercase;
+   text-decoration: none;
+   font-size: 17px;
+   padding: 9px;
+   transition: .3s;
+   text-align: center;
+   margin-top: 10px;
+   
+   }
+   .event2 a:hover{
+      background:darkslateblue;
+      color: #ccc;
+   }
+   /*new events*//*new events*//*new events*//*new events*//*new events*//*new events*//*new events*/
+
+   /*gallerysection image*//*gallerysection image*//*gallerysection image*//*gallerysection image*/
+   .gallerysection{
+    margin-top: 30px;
+   }
+   .gallerysectionimage img{
+   border-radius:unset;
+   width: 19.2%;
+   display: inline-flex;
+   outline: none;
+   margin-left: 5px;
+   }
+   .gallerysectionimage img:hover{
+    opacity: 0.6;
+   }
+   .gallerysection p{
+    text-align: right;
+    margin-top: 30px;
+   }
+   .gallerysection a {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    background-color: royalblue;
+    padding: 10px;
+   }
+   .gallerysection a:hover{
+    color:white;
+    background-color: darkslateblue;
+   }
+   .gallerysection h6{
+    text-align: left;
+    font-size: 20px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    color: #333;
+    margin-bottom: 20px;
+    margin-left: 20px;
+   }
+   
+   /*gallerysection image*//*gallerysection image*//*gallerysection image*//*gallerysection image*/
+    .new2{
+     width: 30.9%;
+     float: left;
+     border: none;
+     box-sizing: border-box;
+     margin-left: 20px;
+     text-align: center;
+     margin-top: 30px;
+    }
+    .new2 h3{
+    font-size: 15px;
+    color: #333;
+    margin-top: 10px;
+    text-transform: capitalize;
+    }
+    .new{
+     color: royalblue;
+     text-align: center;
+     text-transform: capitalize;
+     font-size: 14px;
+    }
+    .new i{
+     font-size: 20px;
+     color:royalblue;
+     
+    margin-right: 10px;
+    }
+    .new5{
+     color: #333;
+     text-transform: capitalize;
+     font-size: 15px;
+     margin-top: 10px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .newletter{
+     background-color:royalblue;
+     margin-top: 50px;
+     padding: 20px;
+    }
+    
+     .subscribe h4{
+     font-size: 20px;
+     color: #333;
+     text-transform: capitalize;
+     text-align: right;
+     margin-right:20px ;
+    
+     }
+     .subscribe p{
+      color: white;
+      font-size: 20px;
+      text-transform: capitalize;
+      margin-right: 20px;
+      font-weight: lighter;
+      text-align: right ;
+     }
+    
+     .inputspace input{
+      width: 40%;
+      padding: 20px;
+      margin-left: 20px;
+      border: 2px solid white;
+      outline-style: none;
+      background-color:white;
+      color: #333;
+      border-radius: 10px;
+      display: inline-block;
+     }
+     
+     .inputspace a{
+      display: inline-block;
+      background:navy;
+      color: white;
+      text-transform: capitalize;
+      text-decoration: none;
+      font-size: 20px;
+      padding: 10px;
+      transition: .3s;
+    margin-left: 30px;
+     border-radius: 10px;
+      }
+     .inputspace a:hover{
+       background:darkslateblue;
+       color: #ccc;
+     }
+  /*logo headings*//*logo headings*//*logo headings*//*logo headings*//*logo headings*/
+     .quicklink2 a{
+      text-decoration: none;
+      color:white;
+      font-weight: bolder;
+      text-transform: uppercase;
+      position: absolute;
+      display: flex;
+      width: 100%;
+      background-color:darkslateblue;
+     }
+     .quicklink2 img{
+      margin-left: 20px;
+      margin-top: 10px;
+      border-radius: 5px;
+      margin-bottom: 10px;
+     }
+
+     .quickfloat p{
+      color: royalblue;
+      text-align:justify;
+      font-size: 15px;
+      padding: 10px;
+      text-transform: capitalize;
+      font-weight:bolder;
+      font-family: sans-serif;
+      line-height: 2rem;
+     }
+     
+     .quicklink2 h1{
+      margin-left: 20px;
+      font-size: 12px;
+      margin-top: 30px;
+      font-size: 20px;
+     }
+     /*logo headings*//*logo headings*//*logo headings*//*logo headings*//*logo headings*/
+     .quickfloat{
+      width: 20.1%;
+      float:left;
+      margin-top: 130px;
+      box-sizing: border-box;
+      margin-left: 50px;
+     }
+    .quicklinkbackground{
+      
+      background-color: darkslateblue;
+    }
+     
+     .quickfloat h3{
+      margin-bottom: 20px;
+      font-size: 19px;
+      color: white;
+      text-transform: capitalize;
+      text-align: center;
+      font-weight: lighter;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     }
+     
+     .spanlinkfloat{
+      float: left;
+      width: 25.2%;
+      box-sizing: border-box;
+      text-align: center;
+      margin-left: 40px;
+      padding: 10px;
+     }
+     .spanlinkfloat a{
+      text-decoration: none;
+      display: block;
+      color: royalblue;
+      text-align: center;
+      margin-bottom: 10px;
+     text-transform: capitalize;
+     font-weight: lighter;
+     font-family: sans-serif;
+     }
+     .spanlinkfloat a:hover{
+      color: navy;
+      font-weight: bold;
+     }
+     .quickfloat .update{
+      color:royalblue;
+      font-size:small;
+      margin-bottom: 10px;
+      text-transform: capitalize;
+      padding: 10px;
+      text-align: justify;
+      font-weight: lighter;
+      font-family: sans-serif;
+     }
+     
+     .quickfloat i{
+      color:royalblue;
+      font-size: 20px;
+      margin-right: 10px;
+     }
+     .quickfloat i:hover{
+      color: blue;
+     }
+     .quickfloat address{
+      display: inline-block;
+      margin-top: 10px;
+     font-size: 19px;
+      color: wheat;
+      padding: 10px;
+      font-size: 12px;
+      text-align: justify;
+      text-transform: capitalize;
+     }
+     .quickfloat address a{
+      text-decoration: none;
+      color: white;
+     }
+     .quickfloat address a:hover{
+      color: royalblue;
+      font-weight: bold;
+     }
+     .footer i{
+      color: white;
+     padding: 20px;
+      float: right;
+      margin-right: 20px;
+      background-color: darkslateblue;
+      margin-bottom: 10px;
+      
+    }
+    .footer i:hover{
+      background-color:lightslategray;
+      color: white;
+    }
+    .footer{
+     margin-top: 20px;
+     background-color:royalblue;
+     color: white;
+     text-align: center;
+     padding: 20px;
+     text-transform: capitalize;
+     letter-spacing: 3px;
+   
+    }
+    /*about us*/ /*about us*/ /*about us*/ /*about us*/ /*about us*/ /*about us*/ /*about us*/ /*about*/
+     /*history of st.denis knight of the altar*/
+   .history-image{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url('../image/crossbearer.jpg');
+    animation: changeslide 16s;
+  }
+  @keyframes changeslide{
+    
+    40%{
+ background-image:url('../image/altar2.jpg');
+    }
+    
+    }
+  
+  
+  .overlay-image{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.8);
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  .overlay-image h1{
+    font-size: 45px;
+    letter-spacing: 4px;
+    margin: 0 0 5px;
+    text-transform: uppercase;
+    
+   
+  }
+ 
+  .overlay-image p{
+    margin: 0;
+    font-size:30px;
+    text-transform: capitalize;
+   color: yellowgreen;
+  }
+  
+  .overlay-image a{
+    text-decoration: none;
+    margin-top: 20px;
+    text-transform: uppercase;
+    display: inline-block;
+    color: #333;
+    font-size: 30px;
+    padding: 20px;
+    background: black;
+    transition: .3s;
+    font-size: 50px;
+  }
+  .overlay-image a:hover{
+   color: white;
+   transition:.2s ;
+  }
+  .history-stdenis{
+    background-color: honeydew;
+  }
+  .history-stdenis h1{
+    font-size: 30px;
+    text-align: center;
+    color: #333;
+    margin-top: 30px;
+    letter-spacing: 4px;
+  }
+  .history-stdenis h5{
+    padding: 30px;
+    text-align: justify;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    font-size: 13px;
+    line-height: 2rem;
+    color: #333;
+  }
+
+   /*novenas*//*novenas*//*novenas*//*novenas*//*novenas*//*novenas*//*novenas*//*novenas*//*novenas*/
+   .novenas{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url('../image/nov.jpg');
+    animation: change slide 2s;
+  }
+/*berhman*//*berhman*//*berhman*//*berhman*//*berhman*//*berhman*//*berhman*//*berhman*//*berhman*/
+  .berhman{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-size: contain;
+    background-position: 50% 50%;
+    background-image: url('../image/download\ 1.jpg');
+    animation: change slide 2s;
+  }
+/*holyspirit*//*holyspirit*//*holyspirit*//*holyspirit*//*holyspirit*//*holyspirit*//*holyspirit*/
+  .spirit{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-position: top;
+    background-image: url('../image/nov2.jpg');
+    animation: change slide 2s;
+  }
+  /*archangels*//*archangels*//*archangels*//*archangels*//*archangels*//*archangels*//*archangels*/
+  .archangels{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url('../image/jesus.jpg');
+    animation: change slide 2s;
+  }
