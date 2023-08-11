@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="this is knight of the altar" />
+    <meta name="keyword" content="boy for the altar aboutus history" />
+    <link rel="stylesheet" href="main/style.css" />
+    <title>welcome|</title>
+    <style>
+      .load {
+        animation: slide 2s;
+      }
+      .slider {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 100vh;
+        animation: slide 30s infinite;
+        position: absolute;
+      }
+      .content {
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.8);
+        position: absolute;
+      }
+      .principal {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        cursor: pointer;
+      }
+      .principal h1 {
+        font-size: 40px;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        font-weight: lighter;
+        color: white;
+        animation: names 2s;
+        animation-iteration-count: infinite;
+      }
+      .principal p {
+        font-size: 30px;
+        text-transform: capitalize;
+        color: white;
+        margin-top: 30px;
+        letter-spacing: 3px;
+      }
+
+      .principal a {
+        text-decoration: none;
+        margin-top: 30px;
+        text-transform: uppercase;
+        display: inline-block;
+        color: #333;
+        font-size: 30px;
+        padding: 20px;
+        background: black;
+        transition: 0.3s;
+        font-weight: bold;
+      }
+      .principal a:hover {
+        background: brown;
+        color: white;
+        border-radius: 55px;
+        transition: 0.2s;
+      }
+
+      @keyframes names {
+        from {
+          color: darksalmon;
+        }
+        to {
+          color: deeppink;
+        }
+      }
+
+      @keyframes slide {
+        0% {
+          background-image: url("./image/candle.jpg");
+        }
+        20% {
+          background-image: url("./image/candle.jpg");
+        }
+        20.01% {
+          background-image: url("./image/nov5.jpg");
+        }
+        40% {
+          background-image: url("./image/nov5.jpg");
+        }
+        40.01% {
+          background-image: url("./image/coloured\ candle.jpg");
+        }
+        60% {
+          background-image: url("./image/coloured\ candle.jpg");
+        }
+        60.01% {
+          background-image: url("./image/santuary2.jpg");
+        }
+        80% {
+          background-image: url("./image/santuary2.jpg");
+        }
+        80.01% {
+          background-image: url("./image/nov4.jpg");
+        }
+        100% {
+          background-image: url("./image/nov4.jpg");
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="slider">
+      <!--slider-->
+      <div class="load"><!--load--></div>
+      <!--load-->
+      <div class="content">
+        <!--content-->
+        <div class="principal">
+          <h1>welcome to st.denis knight of the altar</h1>
+          <p>purity at all cost</p>
+          <a href="index.html">who we are</a>
+        </div>
+      </div>
+      <!--content-->
+    </div>
+    <!--slider-->
+  </body>
+</html>
